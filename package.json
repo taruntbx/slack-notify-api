@@ -4,13 +4,13 @@
   "description": "API to send data to Slack from Marketing Cloud",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"  // Vercel uses this to start the app
+    "start": "node index.js"  
   },
   "dependencies": {
-    "express": "^4.17.1"  // Ensure express is in your dependencies
+    "express": "^4.17.1" 
   },
   "devDependencies": {},
   "engines": {
-    "node": "16.x"  // Specify the Node version if necessary
+    "node": "16.x"  
   }
 }
