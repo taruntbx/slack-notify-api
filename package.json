@@ -1,16 +1,16 @@
 {
   "name": "slack-notify-api",
   "version": "1.0.0",
-  "description": "API to send customer data to Slack",
+  "description": "API to send data to Slack from Marketing Cloud",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js"  // Vercel uses this to start the app
   },
   "dependencies": {
-    "axios": "^0.27.2",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1"  // Ensure express is in your dependencies
   },
-  "author": "Tarun Kumar",
-  "license": "ISC"
+  "devDependencies": {},
+  "engines": {
+    "node": "16.x"  // Specify the Node version if necessary
+  }
 }
